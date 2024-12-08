@@ -1,0 +1,44 @@
+/* General styling for the page */
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the content */
+.container {
+    margin-top: 20%; /* Push content down vertically */
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 3rem; /* Large font size */
+    text-shadow: 0 0 10px #ff0066; /* Glowing pink shadow */
+}
+
+/* Paragraph text style */
+p {
+    font-size: 1.2rem;
+}
+
+/* Style for buttons */
+button {
+    background-color: #333; /* Dark gray background */
+    border: none; /* Remove borders */
+    color: #ffcc00; /* Yellow text */
+    padding: 15px 30px; /* Padding inside the button */
+    font-size: 1.2rem; /* Large text */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px;
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ff0066; /* Pink background on hover */
+    color: #fff; /* White text on hover */
+    box-shadow: 0 0 15px #ff0066; /* Glowing hover effect */
+}
